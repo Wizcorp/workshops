@@ -334,6 +334,7 @@ How?
 MAGE can be up and running in less than a minute.
 
 ```sh
+nvm use 0.8.25
 mkdir simplegame
 cd simplegame
 BOOTSTRAP=true npm install ../mage
