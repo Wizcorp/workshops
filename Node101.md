@@ -334,7 +334,9 @@ How?
 MAGE can be up and running in less than a minute.
 
 ```sh
-BOOTSTRAP=true npm install mage
+mkdir simplegame
+cd simplegame
+BOOTSTRAP=true npm install ../mage
 ```
 
 ### The dashboard
