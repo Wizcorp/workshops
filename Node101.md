@@ -183,11 +183,12 @@ The HTTP server exposes both Readable and Writeable streams.
 
 	server.listen(12345);
 
+```sh
 curl -i http://localhost:12345
 ulimit -n 10000
 siege -n 10 http://localhost:12345
 siege -n 500 http://localhost:12345
-
+```
 
 ## A streaming HTTP server
 
@@ -206,8 +207,10 @@ First step:
 
 	server.listen(12345);
 
+```sh
 curl -i http://localhost:12345
 siege -n 10 http://localhost:12345
+```
 
 Next step:
 
@@ -261,9 +264,10 @@ chatserver.js
 
 	server.listen(12345);
 
+```sh
 nc myip:12345
 telnet myip 12345
-
+```
 
 ## What else is in Node?
 
@@ -297,7 +301,9 @@ Packages include support for:
 
 Let's install a package using NPM.
 
-	sudo npm install -g jshint
+```sh
+npm install -g jshint
+```
 
 There is a tool called "lint" that has been developed for many programming languages. It does static code analysis on your codebase. That's a fancy word for saying: it finds situations that a compiler will consider legal, but are still a common source of bugs.
 
@@ -327,8 +333,9 @@ How?
 
 MAGE can be up and running in less than a minute.
 
-	BOOTSTRAP=true npm install mage
-
+```sh
+BOOTSTRAP=true npm install mage
+```
 
 ### The dashboard
 
